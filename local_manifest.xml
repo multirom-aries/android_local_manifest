@@ -71,13 +71,15 @@
   <!-- HAL's -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/libhardware_legacy" />
 
   <project groups="qcom,default" path="hardware/qcom/audio" name="mitwo-dev/platform_hardware_qcom_audio" remote="github" revision="mnc-dev"  />
-  <project groups="qcom,default" path="hardware/qcom/display" name="mitwo-dev/platform_hardware_qcom_display" remote="github" />
-  <project groups="qcom,default" path="hardware/qcom/bt" name="mitwo-dev/platform_hardware_qcom_bt" remote="github" />
-  <project groups="pdk" path="hardware/libhardware_legacy" name="mitwo-dev/platform_hardware_libhardware_legacy" remote="github" />
+  <project groups="qcom,default" path="hardware/qcom/display" name="MoKee/android_hardware_qcom_display" remote="github" revision="mkm-caf-msm8960" />
+  <project groups="qcom,default" path="hardware/qcom/media" name="MoKee/android_hardware_qcom_media" remote="github" revision="mkm-caf-msm8960" />
+  <project groups="qcom,default" path="hardware/qcom/bt" name="MoKee/android_hardware_qcom_bt" remote="github" revision="mkm-caf" />
+  <project groups="pdk" path="hardware/libhardware_legacy" name="MoKee/android_hardware_libhardware_legacy" remote="github" revision="mkm" />
 
   <!-- framework -->
   <remove-project name="platform/frameworks/av" />
@@ -96,8 +98,8 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
 
-  <project groups="pdk" path="system/core" name="mitwo-dev/platform_system_core" remote="github" />
-  <project groups="pdk" path="system/vold" name="mitwo-dev/platform_system_vold" remote="github" />
+  <project groups="pdk" path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-13.0"/>
+  <project groups="pdk" path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-13.0"/>
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Browser" />
@@ -113,7 +115,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <project path="packages/apps/Browser" name="mitwo-dev/platform_packages_apps_Browser" remote="github" />
-  <project path="packages/apps/ContactsCommon" name="mitwo-dev/platform_packages_apps_ContactsCommon" remote="github" />
+  <project path="packages/apps/ContactsCommon" name="multirom-aries/platform_packages_apps_ContactsCommon" remote="github" revision="android-6.0.1" />
   <project path="packages/apps/Dialer" name="mitwo-dev/platform_packages_apps_Dialer" remote="github" />
   <project path="packages/apps/InCallUI" name="mitwo-dev/platform_packages_apps_InCallUI" remote="github" />
   <project path="packages/apps/Launcher3" name="mitwo-dev/platform_packages_apps_Launcher3" remote="github" />
@@ -147,7 +149,7 @@
   <!-- vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm" />
 
-  <project path="vendor/qcom-opensource/fm" name="mitwo-dev/vendor_qcom-opensource_fm" remote="github" />
+  <project path="vendor/qcom-opensource/fm" name="multirom-aries/vendor_qcom-opensource_fm" remote="github" revision="android-6.0.1" />
 
   <!-- build -->
   <remove-project name="platform/build" />
