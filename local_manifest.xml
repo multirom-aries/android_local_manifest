@@ -117,7 +117,7 @@
   <project path="packages/apps/Dialer" name="mitwo-dev/platform_packages_apps_Dialer" remote="github" />
   <project path="packages/apps/InCallUI" name="mitwo-dev/platform_packages_apps_InCallUI" remote="github" />
   <project path="packages/apps/Launcher3" name="mitwo-dev/platform_packages_apps_Launcher3" remote="github" />
-  <project path="packages/apps/Mms" name="mitwo-dev/platform_packages_apps_Mms" remote="github" />
+  <project path="packages/apps/Mms" name="multirom-aries/platform_packages_apps_Mms" remote="github" revision="android-6.0.1" />
   <project path="packages/apps/PackageInstaller" name="mitwo-dev/platform_packages_apps_PackageInstaller" remote="github" />
   <project path="packages/apps/PhoneCommon" name="mitwo-dev/platform_packages_apps_PhoneCommon" remote="github" />
   <project path="packages/apps/Settings" name="mitwo-dev/platform_packages_apps_Settings" remote="github" />
