@@ -78,8 +78,8 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
 
   <project groups="qcom,default" path="hardware/qcom/audio" name="mitwo-dev/platform_hardware_qcom_audio" remote="github" revision="mnc-dev"  />
-  <project groups="qcom,default" path="hardware/qcom/display" name="MoKee/android_hardware_qcom_display" remote="github" revision="mkm-caf-msm8960" />
-  <project groups="qcom,default" path="hardware/qcom/media" name="MoKee/android_hardware_qcom_media" remote="github" revision="mkm-caf-msm8960" />
+  <project groups="qcom,default" path="hardware/qcom/display" name="MoKee/android_hardware_qcom_display" remote="github" revision="mkm-caf-8960" />
+  <project groups="qcom,default" path="hardware/qcom/media" name="MoKee/android_hardware_qcom_media" remote="github" revision="mkm-caf-8960" />
   <project groups="qcom,default" path="hardware/qcom/bt" name="MoKee/android_hardware_qcom_bt" remote="github" revision="mkm-caf" />
   <project groups="pdk" path="hardware/libhardware_legacy" name="MoKee/android_hardware_libhardware_legacy" remote="github" revision="mkm" />
 
