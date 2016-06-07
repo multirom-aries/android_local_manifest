@@ -84,6 +84,7 @@
   <project groups="pdk" path="hardware/libhardware_legacy" name="MoKee/android_hardware_libhardware_legacy" remote="github" revision="mkm" />
 
   <!-- framework -->
+  <!--
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -95,6 +96,7 @@
   <project groups="pdk" path="frameworks/native" name="mitwo-dev/platform_frameworks_native" remote="github" />
   <project groups="pdk" path="frameworks/opt/net/wifi" name="mitwo-dev/platform_frameworks_opt_net_wifi" remote="github" />
   <project groups="pdk" path="frameworks/opt/telephony" name="mitwo-dev/platform_frameworks_opt_telephony" remote="github" />
+  -->
 
   <!-- system -->
   <remove-project name="platform/system/core" />
@@ -104,6 +106,7 @@
   <project groups="pdk" path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-13.0"/>
 
   <!-- packages -->
+  <!--
   <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -129,24 +132,28 @@
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="cm-13.0" />
 
   <project path="packages/apps/AudioFX" name="mitwo-dev/platform_packages_apps_AudioFX" remote="github" revision="android-5.1.1" />
+   -->
 
   <!-- external -->
+  <!--
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libselinux" />
 
-  <project groups="pdk" path="external/bluetooth/bluedroid" name="mitwo-dev/platform_external_bluetooth_bluedroid" remote="github" />
-  <project groups="pdk" path="external/e2fsprogs" name="mitwo-dev/platform_external_e2fsprogs" remote="github" />
-  <project groups="pdk-cw-fs" path="external/libphonenumber" name="mitwo-dev/platform_external_libphonenumber" remote="github" />
-  <project groups="pdk" path="external/libpng" name="mitwo-dev/platform_external_libpng" remote="github" />
-  <project groups="pdk" path="external/libselinux" name="mitwo-dev/platform_external_libselinux" remote="github" />
+  <project groups="pdk" path="external/e2fsprogs" name="multirom-aries/android_external_e2fsprogs" remote="github" revision="cm-13.0" />
+  <project groups="pdk-cw-fs" path="external/libphonenumber" name="multirom-aries/android_external_libphonenumber" remote="github" revision="cm-13.0" />
+  <project groups="pdk" path="external/libpng" name="multirom-aries/android_external_libpng" remote="github" revision="cm-13.0" />
+  <project groups="pdk" path="external/libselinux" name="multirom-aries/android_external_libselinux" remote="github" revision="cm-13.0" />
 
   <project path="external/android-visualizer" name="mitwo-dev/platform_external_android-visualizer" remote="github" />
-  <project path="external/busybox" name="mitwo-dev/platform_external_busybox" remote="github" />
+
+
   <project path="external/exfat" name="mitwo-dev/platform_external_exfat" remote="github" />
   <project path="external/fuse" name="mitwo-dev/platform_external_fuse" remote="github" />
   <project path="external/ntfs-3g" name="mitwo-dev/platform_external_ntfs-3g" remote="github" />
+   -->
+  <project path="external/busybox" name="multirom-aries/android_external_busybox" remote="github"  revision="cm-13.0" />
 
   <!-- vendor -->
   <remove-project name="platform/vendor/qcom-opensource/fm" />
