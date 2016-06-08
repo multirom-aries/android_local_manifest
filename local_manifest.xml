@@ -164,7 +164,7 @@
   <!-- build -->
   <remove-project name="platform/build" />
 
-  <project groups="pdk" name="multirom-aries/platform_build" path="build" remote="github" revision="android-6.0.1_r46" >
+  <project groups="pdk" name="multirom-aries/platform_build" path="build" remote="github" revision="refs/tags/android-6.0.1_r46" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   
