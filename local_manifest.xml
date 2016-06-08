@@ -65,7 +65,7 @@
   <project groups="pdk" name="mitwo-dev/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision="mnc-dev"  />
 
   <!-- kernel -->
-  <project name="multirom-aries/android_kernel_xiaomi_msm8960" path="kernel/xiaomi/msm8960" remote="github" revision="mnc-dev" />
+  <project name="multirom-aries/android_kernel_xiaomi_msm8960" path="kernel" remote="github" revision="mnc-dev" />
 
   <!-- proprietaries -->
   <project name="multirom-aries/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="mkm" />
@@ -99,12 +99,13 @@
   -->
 
   <!-- system -->
+   <!--
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
 
   <project groups="pdk" path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-13.0"/>
   <project groups="pdk" path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-13.0"/>
-
+  -->
   <!-- packages -->
   <!--
   <remove-project name="platform/packages/apps/Browser" />
@@ -163,7 +164,7 @@
   <!-- build -->
   <remove-project name="platform/build" />
 
-  <project groups="pdk" name="multirom-aries/platform_build" path="build" remote="github" revision="android-6.0.1" >
+  <project groups="pdk" name="multirom-aries/platform_build" path="build" remote="github" revision="android-6.0.1_r46" >
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   
